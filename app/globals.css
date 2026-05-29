@@ -126,5 +126,24 @@
   }
   html {
     @apply font-sans;
-  }
+  } 
+}
+
+body {
+  background:
+    radial-gradient(
+      circle at top,
+      rgba(120, 119, 198, 0.15),
+      transparent 30%
+    ),
+    #09090b;
+}
+
+.react-pdf__Page {
+  display: flex;
+  justify-content: center;
+}
+
+.react-pdf__Page canvas {
+  border-radius: 16px;
 }
